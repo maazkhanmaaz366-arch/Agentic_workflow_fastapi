@@ -1,0 +1,41 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & temp files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Static uploaded files and generated reports (keep directories via .gitkeep)
+backend_app/static/*.jpg
+backend_app/static/*.jpeg
+backend_app/static/*.png
+backend_app/static/*.webp
+backend_app/static/reports/*.csv
+backend_app/static/users/*
+!backend_app/static/.gitkeep
+!backend_app/static/reports/.gitkeep
+!backend_app/static/users/.gitkeep
